@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-MAINTAINER Nils Jørgen Mittet <njmittet@gmail.com>
+MAINTAINER varnish1 <varnish@gmail.com>
 
 RUN apk add --update varnish && rm -rf /var/cache/apk/*
 
